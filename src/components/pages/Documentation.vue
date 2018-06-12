@@ -7,7 +7,6 @@
 
 <script>
 import MainSource from '../../data/MainSource';
-import DashboardHooksSource from '../../data/DashboardHooksSource';
 import DocsNavbar from '../docs/Navbar.vue';
 
 export default {
@@ -17,8 +16,7 @@ export default {
 	data() {
 		return {
 			sources: {
-				[MainSource.id]: MainSource,
-				[DashboardHooksSource.id]: DashboardHooksSource
+				[MainSource.id]: MainSource
 			},
 			source: MainSource,
 			tag: MainSource.defaultTag

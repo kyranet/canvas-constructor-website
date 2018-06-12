@@ -9,13 +9,6 @@
 					</p>
 					<div class="level-item">
 						<b-field type="is-light">
-							<b-select v-model="sourceChoice" :placeholder="sourceChoice">
-								<option v-for="source in sources" :key="source" :value="source.id">{{ source.name }}</option>
-							</b-select>
-						</b-field>
-					</div>
-					<div class="level-item">
-						<b-field type="is-light">
 							<b-select v-model="tagChoice" :placeholder="tagChoice" :loading="!tags">
 								<option v-for="tag in tags" :key="tag" :value="tag">{{ tag }}</option>
 							</b-select>
@@ -113,4 +106,3 @@ export default {
 	}
 };
 </script>
-

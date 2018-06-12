@@ -3,7 +3,7 @@
 		<div class="container">
 			<div class="content has-text-centered">
 				<p>
-					<strong>Let's stop reinventing the wheel, and start coding the bots of our dreams!</strong>
+					<strong>Let's write clean code together!</strong>
 				</p>
 				<div class="columns">
 					<div class="column is-two-fifths is-hidden-tablet"/>
@@ -14,14 +14,14 @@
 						</a>
 					</div>
 					<div class="column">
-						<a href="https://www.npmjs.com/package/klasa" class="button is-info">
+						<a href="https://www.npmjs.com/package/canvas-constructor" class="button is-info">
 							<span>Published using:</span>
 							<span class="icon"><i class="fab fa-npm"/></span>
 						</a>
 					</div>
 					<div class="column">
-						<a href="https://www.patreon.com/klasa" class="button is-info">
-							<span>Support Klasa:</span>
+						<a href="https://www.patreon.com/kyranet" class="button is-info">
+							<span>Support Kyra:</span>
 							<span class="icon"><i class="fab fa-patreon"/></span>
 						</a>
 					</div>

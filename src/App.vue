@@ -21,7 +21,9 @@ export default {
 
 <style lang="scss">
 
-	$light: #c1d5e0;
+	$light: #A89D78;
+	$cyan: #665F49;
+	$blue: #988E6D;
 
 	// Import Bulma's core
 	@import "~bulma/sass/utilities/_all";
