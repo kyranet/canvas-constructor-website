@@ -15,9 +15,7 @@ export default {
 
 	data() {
 		return {
-			sources: {
-				[MainSource.id]: MainSource
-			},
+			sources: { [MainSource.id]: MainSource },
 			source: MainSource,
 			tag: MainSource.defaultTag
 		};
