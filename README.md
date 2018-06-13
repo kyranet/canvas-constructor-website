@@ -1,18 +1,16 @@
-# klasa-docs
+# canvas-constructor-website
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/dirigeants/klasa-website.svg)](https://greenkeeper.io/)
-
-> Documentation site for Klasa
+> Documentation site for CanvasConstructor
 
 ## Build Setup
 
 ```bash
 # install dependencies
-npm install
+yarn install
 
 # serve with hot reload at localhost:4000
-npm run dev
+poi
 
 # build for production with minification
-npm run build
+yarn run build
 ```
