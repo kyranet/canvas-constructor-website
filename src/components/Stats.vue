@@ -43,9 +43,9 @@ export default {
 	name: 'Stats',
 	data() {
 		return {
-			downloads: '1000+',
-			stars: '20+',
-			contributors: '19+',
+			downloads: '27000+',
+			stars: '30+',
+			contributors: '10+',
 			fetching: false
 		};
 	},
@@ -58,9 +58,9 @@ export default {
 			this.fetching = true;
 
 			const [downloads, stars, contributors] = await Promise.all([
-				fetch('https://api.npmjs.org/downloads/range/2013-08-21:2100-08-21/klasa').then(json).catch(noop),
-				fetch('https://api.github.com/repos/dirigeants/klasa').then(json).catch(noop),
-				fetch('https://api.github.com/repos/dirigeants/klasa/stats/contributors').then(json).catch(noop)
+				fetch('https://api.npmjs.org/downloads/range/2013-08-21:2100-08-21/canvas-constructor').then(json).catch(noop),
+				fetch('https://api.github.com/repos/kyranet/canvasConstructor').then(json).catch(noop),
+				fetch('https://api.github.com/repos/kyranet/canvasConstructor/stats/contributors').then(json).catch(noop)
 			]);
 
 			if (downloads) {

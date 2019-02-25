@@ -1,18 +1,16 @@
-# klasa-docs
+# canvas-constructor-website
 
-[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=dirigeants/klasa-website)](https://dependabot.com)
-
-> Documentation site for Klasa
+> Documentation site for CanvasConstructor
 
 ## Build Setup
 
 ```bash
 # install dependencies
-npm install
+yarn
 
 # serve with hot reload at localhost:4000
-npm run dev
+yarn dev
 
 # build for production with minification
-npm run build
+yarn build
 ```

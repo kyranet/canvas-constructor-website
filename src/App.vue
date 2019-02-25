@@ -24,15 +24,27 @@ export default {
 	methods: {
 		invite() {
 			const popup = window.open('about:blank', '', 'toolbar=no,scrollbars=yes,resizable=yes,width=498,height=666');
-			fetch('https://api.klasa.me/invite')
-				.then(res => res.json())
-				.then(({ invite }) => { popup.location = invite; });
+			popup.location = 'https://discord.gg/taNgb9d';
 		}
 	}
 };
 </script>
 
 <style lang="scss">
+
+	.is-info {
+		background-color: hsl(45, 16%, 34%) !important;
+	}
+
+	.card a,
+	h6 > a,
+	h5 > a,
+	h4 > a,
+	h3 > a,
+	h2 > a,
+	h1 > a {
+		color: hsl(46, 17%, 51%) !important;
+	}
 
 	.site {
 		display: flex;

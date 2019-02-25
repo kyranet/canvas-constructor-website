@@ -3,12 +3,12 @@
 		<div class="container">
 			<div class="content has-text-centered">
 				<p>
-					<strong>Let's stop reinventing the wheel, and start coding the bots of our dreams!</strong>
+					<strong>Let's write clean code together!</strong>
 				</p>
 				<div class="columns">
 					<div class="column is-two-fifths is-hidden-tablet" />
 					<div class="column">
-						<a href="https://www.npmjs.com/package/klasa" class="button is-danger">
+						<a href="https://www.npmjs.com/package/canvas-constructor" class="button is-danger">
 							<span>Published using:</span>
 							<span class="icon">
 								<i class="fab fa-npm" />
@@ -16,8 +16,8 @@
 						</a>
 					</div>
 					<div class="column">
-						<a href="https://www.patreon.com/klasa" class="button is-patreon">
-							<span>Support Klasa:</span>
+						<a href="https://www.patreon.com/kyranet" class="button is-patreon">
+							<span>Support Kyra:</span>
 							<span class="icon">
 								<i class="fab fa-patreon" />
 							</span>
