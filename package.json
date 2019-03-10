@@ -1,7 +1,7 @@
 {
-  "name": "klasa-docs",
+  "name": "canvas-constructor-website",
   "version": "0.0.1",
-  "description": "Documentation site for Klasa",
+  "description": "Documentation site for CanvasConstructor",
   "author": "Dirigeants",
   "private": true,
   "main": "src/main.js",

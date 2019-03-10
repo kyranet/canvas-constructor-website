@@ -1,5 +1,4 @@
 #!/bin/bash
-# Based on https://github.com/discordjs/discord.js-site/blob/master/deploy/deploy.sh
 
 set -e
 
@@ -27,4 +26,3 @@ git config user.name "Travis CI"
 git config user.email "${COMMIT_EMAIL}"
 git commit -m "Vue Build: ${SHA}" || true
 git push "https://${GH_TOKEN}@${GH_REF}" $TARGET_BRANCH
-

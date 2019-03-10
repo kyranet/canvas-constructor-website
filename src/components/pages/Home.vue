@@ -5,17 +5,12 @@
 			<br>
 			<br>
 			<div class="tile is-ancestor">
-				<b-tooltip
-					class="tile is-parent"
-					label="The stable branch is currently unsupported awaiting a stable discord.js v12 release! Please use the master branch for now."
-					type="is-danger"
-					multilined
-				>
+				<div class="tile is-parent">
 					<article class="tile is-child box content">
 						<h5><strong>Install Stable</strong></h5>
 						<pre v-highlightjs><code class="bash">npm install canvas-constructor</code></pre>
 					</article>
-				</b-tooltip>
+				</div>
 				<div class="tile is-parent">
 					<article class="tile is-child box content">
 						<h5><strong>Install Master</strong></h5>
